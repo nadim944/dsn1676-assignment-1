@@ -5,14 +5,50 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+    background-color: #E6E6BC;
     box-sizing: border-box;
-}
-
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
--text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -text-size-adjust: 100%;
+    color: #fff;
 
 *, *::before, *::after {
     box-sizing: inherit;
 }
+    
+.img-flex {
+    display: block;
+    width: 100%;   
+}
+    
+a,
+a:link,
+a:visited {
+    color: #fff;
+}
+    
+.img-border {
+    border; 1px solid #4f9bd5;
+}
+    
+.masthead {
+    background: transparent url("../img/masthead-bg.png") repeat left center;
+    text-align; center;
+}
+
+.title {
+    display: inline-block;
+    background-color; #E6E6BC;
+    text-shadow: 30px 3px 0 #4f9bd5;
+}
+
+.logo {
+    margin: 0 0.2em 0 0;
+    width: 1.2em;
+    vertical-align: middle;
+}
+
+}
+    
+    
