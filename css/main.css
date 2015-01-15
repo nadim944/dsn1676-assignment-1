@@ -66,16 +66,27 @@ h3 {
 
 p {
     text-align: center;
-    margin-top: 0e;
+    margin-top: 0;
     font-size: 1.5em;
+    padding-top: 1em;
 }
 
 ul {
     font-size: 1em;
     margin-top: 0;
     padding-bottom: 1em;
-
 }
 
+panel {
+   
+}
+
+.img-border {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    background: transparent url("../images/panel-border.png") 30 30 30 30 stretch stretch;
+    border-width: 30px 30px 30px 30px;
+}
     
     
